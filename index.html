@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Portfolio website</title>
+</head>
+
+<body>
+
+  <div class="relative">
+    <!-- Nav Bar -->
+    <div class="flex lg:flex-row justify-around list-none items-center my-5">
+      <h1 class="text-4xl text-blue-700 font-bold">Dev Portfolio</h1>
+      <i class="ri-menu-line text-3xl lg:hidden"></i>
+
+      <nav class="lg:flex lg:relative lg:flex-row lg:gap-10 flex flex-col absolute border bg-transparent w-[150px] ">
+        <i class="ri-close-large-line text-2xl lg:hidden"></i>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Skills</a>
+        <a href="">Projects</a>
+      </nav>
+
+    </div>
+
+    <!--Hero Section -->
+    <div
+      class="flex flex-col py-20 p-10 gap-10 items-center text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  ">
+
+      <h1 class="text-4xl lg:text-6xl">Hi I'm Kashish Kumar</h1>
+      <p class="text-xl lg:text-2xl">BCA Student & Aspiring Web Developer</p>
+      <p class="text-[15px] lg:text-2xl">I Create Beautiful, responsive website with modern technologies</p>
+      <button
+        class="border bg-blue-600 p-2 w-40 rounded-md font-semibold text-lg hover:bg-violet-700 transition-all duration-200 hover:translate-y-0.5"><a
+          href="#Myproject">View My Work</a></button>
+
+    </div>
+
+    <!-- About Section -->
+    <div id="Aboutme" class="mt-20 flex flex-col items-center gap-5">
+
+      <h1 class="text-4xl font-semibold">About Me</h1>
+      <p>Get to know me better</p>
+
+      <div class="flex flex-col lg:flex-row items-center mt-5 gap-10  w-[75vw]">
+        <img src="" alt="" class="w-[555px]
+        h-[555px] border-2 mb-20">
+
+        <div class="w-[50vw]">
+          <h2 class="font-semibold text-4xl mb-10">Web Development Enthusiast</h2>
+
+          <p class="mt-5 mb-5">I'am a final year BCA student with a passion for creating innovative web solution. My
+            journey in web development started during my first year of collage, and I've been hooked ever since.</p>
+          <p class="mt-5 mb-5">I enjoy turning complex problems into simple, beautiful and intutive designs. When I'm
+            not coding, you can find me exploring new techonologies, contributing to open source Projects, or reading
+            tech blogs.</p>
+          <p class="mt-5 mb-5">My goal is to built applications that are both viusally appealing and highly functional,
+            providing seamless user expreinces across all devices</p>
+          <button
+            class="text-white bg-blue-600 p-2 w-40 rounded-md font-semibold text-lg hover:bg-violet-700 transition-all duration-200 hover:translate-y-0.5"><a
+              href="#Contact">Get In Touch</a></button>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <!-- Skills Section -->
+    <div id="Myskills" class="flex flex-col items-center mt-30">
+      <h2 class="text-4xl font-semibold pb-5">My Skills</h2>
+      <p class="mb-10">techonologies I work with</p>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 w-[75vw]">
+
+        <div class="flex flex-col border h-[250px] rounded-2xl p-8">
+          <i class="text-4xl">💻</i>
+          <h1 class="font-bold text-4xl pt-3 pb-5">Frontend Development</h1>
+          <p>HTML5, CSS3, JavaScript, Tailwind CSS, GSAP</p>
+        </div>
+
+        <div class="flex flex-col border h-[250px] rounded-2xl p-8">
+          <i class="text-4xl">📱</i>
+          <h1 class="font-bold text-4xl pt-3 pb-5">Responsive Design</h1>
+          <p>Creating websites that work perfectly on all devices and screen sizes</p>
+        </div>
+
+
+        <div class="flex flex-col border h-[250px] rounded-2xl p-8">
+          <i class="text-4xl">🔧</i>
+          <h1 class="font-bold text-4xl pt-3 pb-5">Tools & techonologies</h1>
+          <p>Git, GitHub, VS Code</p>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- Project Section -->
+    <div id="Myproject" class="flex flex-col items-center mt-20">
+      <h2 class="text-4xl font-semibold pb-5">My Projects</h2>
+      <p class="mb-10">Some of my recent work</p>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-5 w-[80vw] mb-20">
+
+        <div class="flex flex-col border-2 rounded-2xl h-[350px] group">
+          <img src="images/LOGO (4).png" alt="" height="100px" class="rounded-t-2xl">
+          <div class="flex flex-col mx-5 my-2">
+            <h2 class="font-semibold text-3xl">The Boss Cafe</h2>
+            <p class="py-2">Your daily dose of cafe comfort and deliciousness</p>
+            <nav class="text-blue-600 flex gap-5">
+              <a href="">Live Demo</a>
+              <a href="">GitHub</a>
+            </nav>
+          </div>
+        </div>
+
+
+        <div class="flex flex-col border-2 rounded-2xl h-[350px] group">
+          <img src="images/LOGO (4).png" alt="" height="100px" class="rounded-t-2xl">
+          <div class="flex flex-col mx-5 my-2">
+            <h2 class="text-3xl font-semibold">To Do List</h2>
+            <p class="py-2">Your daily dose of cafe confort and deliciousness</p>
+            <nav class="text-blue-600 flex gap-5">
+              <a href="">Live Demo</a>
+              <a href="">Github</a>
+            </nav>
+          </div>
+        </div>
+
+
+        <div class="flex flex-col border-2 rounded-2xl h-[350px] group">
+          <img src="images/LOGO (4).png" alt="" height="100px" class="rounded-t-2xl">
+          <div class="flex flex-col mx-5 my-2">
+            <h2 class="text-3xl font-semibold">Project1</h2>
+            <p class="py-2">Your daily dose of cafe comfort and deliciousness</p>
+            <nav class="text-blue-600 flex gap-5">
+              <a href="">Live Demo</a>
+              <a href="">Github</a>
+            </nav>
+          </div>
+        </div>
+
+
+        <div class="flex flex-col border-2 rounded-2xl h-[350px] group">
+          <img src="images/LOGO (4).png" alt="" height="100px" class="rounded-t-2xl">
+          <div class="flex flex-col mx-5 my-2">
+            <h2 class="text-3xl font-semibold">Digital Marketing</h2>
+            <p class="py-2">Your daily dose of cafe comfort and deliciousness</p>
+            <nav class="text-blue-600 flex gap-5">
+              <a href="">Live Demo</a>
+              <a href="">Github</a>
+            </nav>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Get in touch -->
+    <div id="Contact" class="flex flex-col items-center">
+      <h2 class="text-4xl font-semibold pb-5">Get In Touch</h2>
+      <p class="pb-10">Let's work together</p>
+
+      <div class="flex flex-col md:flex-row lg:flex-row justify-around w-[80vw] mb-20">
+        <div class="flex flex-col w-[40vw] gap-5 mb-10">
+          <div class="flex items-center gap-3">
+            <i>📧</i>
+
+            <div>
+              <h3 class="font-bold">Email</h3>
+              <p>Kashkum@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <i>📱</i>
+
+            <div>
+              <h3 class="font-bold">Phone</h3>
+              <p>12435678965</p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <i>📍</i>
+
+            <div>
+              <h3 class="font-bold">Location</h3>
+              <p>Haryana, India</p>
+            </div>
+          </div>
+        </div>
+        <div class="border rounded-3xl w-full lg:w-[40vw] p-5">
+          <div>
+            <form action="validation">
+
+              <div class="flex flex-col mb-3">
+                <label for="Name">Name</label>
+                <input class="border h-10 px-2" type="text" id="Name" placeholder="Enter your fullname">
+              </div>
+
+              <div class="flex flex-col mb-3">
+                <label for="Email">E-mail</label>
+                <input class="border h-10 px-2" type="text" id="Email" placeholder="Enter your E-mail">
+              </div>
+
+              <div class="flex flex-col mb-3">
+                <label for="Subject">Subject</label>
+                <input class="border h-10 px-2" type="text" id="Subject">
+              </div>
+
+              <div class="flex flex-col mb-3">
+                <label for="Message">Message</label>
+                <textarea class="border h-30 px-2" name="" id="Message"></textarea>
+              </div>
+
+              <button
+                class="border bg-blue-600 p-2 w-40 rounded-md font-semibold text-lg text-white hover:bg-violet-700 transition-all duration-200 hover:translate-y-0.5"><a
+                  href="#Myproject">Send Message</a></button>
+
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Footer Section -->
+    <div class="flex flex-col items-center bg-indigo-500 text-white">
+
+      <div class="flex flex-col md:flex-row lg:flex-row justify-between w-[80vw] border-b py-10">
+        <div>
+          <h2 class="text-3xl font-bold pb-5">Dev Portfolio</h2>
+          <p>Creating beautiful and functional web experiences</p>
+        </div>
+        <div>
+          <div>
+            <h2 class="text-3xl font-bold pb-5">Connect with me</h2>
+
+            <nav class="flex flex-col">
+              <a href="https://www.instagram.com/">
+                <i class="ri-instagram-line"> Instagram</i>
+              </a>
+              <a href="">
+                <i class="ri-snapchat-fill"> Snapchat</i>
+              </a>
+              <a href="">
+                <i class="ri-facebook-circle-fill"> Facebook</i>
+              </a>
+            </nav>
+
+          </div>
+        </div>
+      </div>
+
+      <p class="py-5">© 2023 John Doe. All rights reserved.</p>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
