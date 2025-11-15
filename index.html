@@ -18,16 +18,16 @@
     <!-- Nav Bar -->
     <div class="flex lg:flex-row lg:justify-around list-none items-center my-5 mx-5">
       <h1 class="text-4xl text-blue-700 font-bold">Dev Portfolio</h1>
-      <i class="ri-menu-line text-3xl lg:hidden absolute right-5 top-5"></i>
+      <i id="menubtn" class="ri-menu-line cursor-pointer text-3xl lg:hidden absolute right-5 top-5"></i>
 
-      <nav
-        class=" flex gap-15 text-2xl lg:flex-row flex-col lg:border-0 lg:relative lg:h-8 absolute top-0 w-50  border-2 h-100 backdrop-blur-2xl lg:right-0 -right-50">
+      <nav id="navBar"
+        class=" flex gap-15 text-2xl lg:flex-row flex-col lg:border-0 lg:relative lg:h-8 absolute top-0 w-50 border-2 h-100 backdrop-blur-2xl lg:right-0 -right-50 lg:p-0 p-10">
         <a href="" class="hover:text-violet-600">Home</a>
         <a href="#Aboutme" class="hover:text-violet-600">About</a>
         <a href="" class="hover:text-violet-600">Skills</a>
         <a href="" class="hover:text-violet-600">Projects</a>
 
-        <i class="absolute right-2 top-0 ri-close-large-line text-2xl lg:hidden"></i>
+        <i id="cross" class="absolute right-4 cursor-pointer top-2 ri-close-large-line text-2xl lg:hidden"></i>
       </nav>
 
     </div>
@@ -273,6 +273,10 @@
 
   </div>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+    integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
